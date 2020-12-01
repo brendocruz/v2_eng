@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	font: 20px sans-serif;
+}
+
+body {
+	height: 100%;
+	background-color: #434085;
+}
+
+.wrapper {
+	width: 60%;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-color: white;
+}
+
+.container-form {
+	margin: 10px;
+	text-align: center;
+}
+
+legend {
+	margin: 10px;
+}
+
+input {
+	font-size: 1.2rem;
+	padding: 5px;
+}
+
+
+button {
+	font-size: 1.3rem;
+	padding: 10px 25px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	margin: 10px;
+	cursor: pointer;
+	background-color: rgb(220, 220, 220);
+}
+
+button:hover {
+	filter: invert(10%);
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FUNDOS */
+.history-item > span {
+	width: 50%;
+	border: 1px solid black;
+	padding: 5px;
+	display: inline-block;
+}
+
+.history-item> span.history-header {
+	width: 50%;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: silver;
+	display: inline-block;
+}
+
+.history-item :first-child {
+}
+
+.history-item :last-child {
+}
+
+.user-funds {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 80px;
+	height: 60px;
+	font-size: 2rem;
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-profile {
+	display: flex;
+}
+
+.profile {
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+.profile-image {
+	width: 200px;
+	height: 200px;
+	border: 1px solid gray;
+}
+
+.profile-name {
+
+}
+
+.profile[data-selected] .profile-image {
+	border: 1px solid tomato;
+}
+
+.return-button {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.link-list {
+	list-style: none;
+	font-size: 1.4rem;
+}
+
+.link-list li a {
+	color: black;
+	text-decoration: none;	
+}
+
+.link-list li a:hover {
+	color: white;
+	background-color: black;
+}
+
+.container-button {
+	text-align: center;
+}
